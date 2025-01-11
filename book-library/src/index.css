@@ -1,3 +1,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+.home-style{
+   background-image:  url("https://img.freepik.com/premium-photo/modern-library-book-archive-education-storage-books-knowledge_1061358-111736.jpg?semt=ais_hybrid");
+   height: 40rem;
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   padding: 0.5rem;  
+}
+.nav-style{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(54, 69, 97);
+
+}
+.form{
+    background-color: rgb(230, 162, 137);
+    height: 200rem;
+}
