@@ -8,9 +8,9 @@ import BookDetailsPage from "./pages/BookDetailsPage";
 const App = () => {
   return (
     <Router>
-      <div className="app">
+      <div>
         <Navbar />
-        <Routes>
+        <Routes >
           <Route path="/" element={<HomePage />} />
           <Route path="/search" element={<SearchPage />} />
           <Route path="/BookDetailsPage" element={<BookDetailsPage />} />

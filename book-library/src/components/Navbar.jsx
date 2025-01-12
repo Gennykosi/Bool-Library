@@ -16,12 +16,7 @@ const Navbar = () => {
       >
         Search
       </Link>
-      <Link
-        to="/BookDetailsPage"
-        className="text-black text-xl py-2 px-4 hover:bg-gray-600 rounded mt-2"
-      >
-        Book Details
-      </Link>
+   
     </div>
   );
 };

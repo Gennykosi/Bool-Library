@@ -41,7 +41,7 @@ const SearchPage = () => {
       </div>
       <div className="mt-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
         {books.map((book) => (
-          <BookCard key={book.id} book={book} onClick={(BookDetailsPage) => {}} />
+          <BookCard key={book.id} book={book} />
         ))}
       </div>
     </div>
